@@ -1,0 +1,73 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "ipadpro": {
+      "textures": [
+        "textures/items/Ipadpro"
+      ]
+    },
+    "robloxlogo": {
+      "textures": [
+        "textures/items/Robloxlogo"
+      ]
+    },
+    "": {
+      "textures": [
+       "textures/blocks/netherrack_top"
+      ]
+    },
+    "netherrack_bottom": {
+     "textures": [
+      "textures/blocks/netherrack_bottom"
+      ]
+    },
+    "netherrack_side": {
+     "textures": [
+      "textures/blocks/netherrack_side"
+      ]
+    },
+    "soul_sand_valley": {
+      "textures": [
+        "textures/blocks/soul_sand_valley"
+      ]
+    },
+    "glow_wart": {
+      "textures": [
+        "textures/blocks/glow_wart"
+      ]
+    },
+    "red_netherwart_log": {
+      "textures": [
+        "textures/blocks/red_netherwart_log"
+      ]
+    },
+    "red_netherrack_top": {
+      "textures": [
+       "textures/blocks/red_netherrack_top"
+      ]
+    },
+    "red_netherrack_bottom": {
+     "textures": [
+      "textures/blocks/netherrack_bottom"
+      ]
+    },
+    "red_netherrack_side": {
+     "textures": [
+      "textures/blocks/red_netherrack_side"
+      ]
+    },
+    "fire0": {
+      "textures": "textures/blocks/fire0"
+    },
+    "fire1": {
+      "textures": "textures/blocks/fire1"
+    },
+    "soul_root": {
+      "textures": "textures/blocks/soul_root"
+       }
+      }
+     }
+    }

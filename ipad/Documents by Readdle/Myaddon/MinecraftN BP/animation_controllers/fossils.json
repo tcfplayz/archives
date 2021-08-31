@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.fossils": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walking": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=mnu:fossils] ~~~ detect ~~-1~ soul_sand_valley 0 function fossils"
+					]
+				},
+				"walking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=mnu:fossils] ~~~ detect ~~-1~ soul_sand_valley 0 function fossils"
+					]
+				}
+			}
+		}
+	}
+}

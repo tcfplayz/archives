@@ -1,0 +1,17 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Communist Resource Pack By JeffreyTCF",
+      "name" : "Communist Resource Pack",
+      "uuid" : "03b7f3fc-1e5c-11e7-93ae-92361f002671",
+      "version" : [ 1, 5 ,0 ]
+   },
+   "modules" : [
+      {
+         "description" : "§lIts Time To §4Communist!",
+         "type" : "resources",
+         "uuid" : "03b7f690-1e5c-11e7-93ae-92361f002671",
+         "version" : [ 1, 5, 0]
+      }
+   ]
+}

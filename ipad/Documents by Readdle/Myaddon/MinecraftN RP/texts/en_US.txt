@@ -1,0 +1,14 @@
+tile.mnu:blue_netherwart.name=Blue Nether Wart
+tile.mnu:blue_netherwart_log.name=Blue Nether Wart Log
+item.spawn_egg.entity.mnu:piglins.name=Spawn Piglins
+tile.mnu:soul_sand_valley.name=Soul Sand Valley
+tile.brown_mushroom.name=Blue Mushroom
+tile.red_mushroom.name=Fired Mushroom
+item.spawn_egg.entity.mnu:beast.name=Spawn Piglin Beast
+tile.seaLantern.name=Blue Fire
+tile.mnu:soul_root.name=Soul Root
+tile.mnu:red_netherwart_log.name=Red Wart Log
+tile.mnu:blue_netherwart_log.name=Blue Wart Log
+tile.mnu:red_wart_netherrack.name=Red Wart Netherrack
+tile.mnu:blue_wart_netherrack.name=Blue Wart Netherrack
+tile.mnu:glow_wart.name=Glow Wart

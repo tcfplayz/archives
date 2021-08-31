@@ -1,0 +1,63 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "mnu:blue_netherwart": {
+    "textures": "blue_netherwart",
+    "sound": "wood"
+  },
+  "mnu:blue_netherwart_log": {
+    "textures": "blue_netherwart_log",
+    "sound": "wood"
+  },
+  "mnu:blue_wart_netherrack": {
+   "isotropic" : false,
+   "textures": {
+   "up": "netherrack_top",
+   "down": "netherrack_bottom",
+   "side": "netherrack_side"
+   },
+   "sound": "wood"
+   },
+  "mnu:soul_sand_valley": {
+    "textures": "soul_sand_valley",
+    "sound": "sand"
+   },
+  "mnu:glow_wart": {
+    "textures": "glow_wart",
+    "sound": "glass"
+   },
+  "mnu:red_netherwart_log": {
+    "textures": "red_netherwart_log",
+    "sound": "wood"
+   },
+  "mnu:red_wart_netherrack": {
+   "isotropic" : false,
+   "textures": {
+   "up": "red_netherrack_top",
+   "down": "netherrack_bottom",
+   "side": "red_netherrack_side"
+   },
+   "sound": "wood"
+   },
+  "seaLantern": {
+    "blockshape": "fire",
+    "textures": {
+      "up": "fire0",
+      "down": "fire1",
+      "side": "fire0"
+    },
+    "sound": "wood"
+    },
+  "mnu:soul_root": {
+    "textures": "soul_root",
+    "sound": "wood"
+          }
+         }
+        }
+       }
+      }
+     }
+    }

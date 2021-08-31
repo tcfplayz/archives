@@ -1,0 +1,23 @@
+{
+"format_version": 1,
+"header": {
+"uuid": "508b7720-d2a5-44d1-9854-781e7154c511",
+"name": "Minecraft Nether Update Concept Add-on",
+"version": [0, 0, 2],
+"description": "Blue NetherWart Forest Concept Add-on from the Nether Update"
+},
+"modules": [
+{
+"description": "Blue NetherWart Forest Concept Add-on from the Nether Update",
+"version": [0, 0, 2],
+"uuid": "fe49be8f-56cc-457c-bf18-b452b2cedacf",
+"type": "data"
+}
+],
+"dependencies": [
+{
+"uuid": "d10dab8b-a22a-4fce-8049-542c87e0b8d8",
+"version": [0, 0, 2]
+}
+]
+}

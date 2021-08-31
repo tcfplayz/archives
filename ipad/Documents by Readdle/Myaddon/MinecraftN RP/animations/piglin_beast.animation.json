@@ -1,0 +1,115 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.petpig.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": 2.0,
+          "position": [ 0.0, 8.0, 4.0 ]
+        }
+      }
+    },
+	"animation.petpig.look_at_target": {
+      "loop": true,
+      "bones": {
+        "head": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] }
+      }
+    },
+     "animation.petpig.sit": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [ 0.0, -8.0, 3.0 ],
+          "rotation": [ -30, 0.0, 0.0 ]
+        },
+        "leg0": {
+          "position": [ -1.0, -8.0, -4.0 ],
+          "rotation": [ -90, 0.0, 0.0 ]
+        },
+        "leg1": {
+          "position": [ 1.0, -8.0, -4.0 ],
+          "rotation": [ -90, 0.0, 0.0 ]
+        },
+		"leg2": {
+			"position": [ 1.0, 0.0, 0.0 ],
+          "rotation": [ -15, 0.0, 0.0 ]
+        },
+        "leg3": {
+			"position": [ -1.0, 0.0, 0.0 ],
+          "rotation": [ -15, 0.0, 0.0 ]
+		  }
+        }
+      },
+    "animation.petpig.walk": {
+      "loop": true,
+      "bones": {
+        "leg1": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] },
+        "leg0": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] },
+        "leg3": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] },
+        "leg2": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] }
+      }
+    },
+    "animation.petpig.sneak": {
+      "loop": true,
+      "bones": {
+        "body": { "position": [ 0.0, -1.0, 0.0 ] },
+        "head": { "position": [ 0.0, -1.0, 0.0 ] },
+        "leg1": {
+          "position": [ 0.0, 1.0, 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed", 0.0, 0.0 ]
+        },
+        "leg0": {
+          "position": [ 0.0, 1.0, 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed", 0.0, 0.0 ]
+        },
+        "leg3": {
+          "position": [ 0.0, 1.0, 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed", 0.0, 0.0 ]
+        },
+        "leg2": {
+          "position": [ 0.0, 1.0, 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.petpig.sprint": {
+      "loop": true,
+      "bones": {
+        "leg1": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] },
+        "leg0": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 17.19) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] },
+        "leg3": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 197.19) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] },
+        "leg2": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed", 0.0, 0.0 ] }
+      }
+    },
+    "animation.petpig.lie_down": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [ 0.0, "variable.LieDownAmount * -4.5 + variable.LieOnPlayer * (3 + query.is_baby * 6)", 0.0 ],
+          "rotation": [ 0.0, 0.0, "Math.lerprotate(0.0, 90.0, variable.LieDownAmount)" ]
+        },
+        "head": {
+          "position": [ 0.0, 0.7, 0.0 ],
+          "rotation": [ 0.0, "Math.lerprotate(this, 45.81, variable.LieDownAmount)", 0 ]
+        },
+        "leg1": {
+          "position": [ 0.0, -0.7, 0.0 ],
+          "rotation": [ -22.92, 0.0, 0.0 ]
+        },
+        "leg0": {
+          "position": [ 0.1, -1.2, 0.0 ],
+          "rotation": [ 28.65, 0.0, -28.65 ]
+        },
+        "leg3": {
+          "position": [ 0.0, -1.0, 0.0 ],
+          "rotation": [ -72.81, 0.0, 0.0 ]
+        },
+        "leg2": {
+          "position": [ 0.2, -0.9, 0.0 ],
+          "rotation": [ -30.0, 0.0, -14.46 ]
+        }
+      }
+    }
+  }
+}

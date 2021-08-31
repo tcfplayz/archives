@@ -1,0 +1,22 @@
+{
+  "header": {
+    "pack_id": "06f8151a-9025-11e8-9eb6-529269fb1459",
+    "name": "Iron Flat world",
+    "description": "This world changes the flat world terrain generation to iron blocks! By: NetherNinja",
+    "packs_version": "1.0.0",
+    "modules": [
+      {
+        "description": "This world changes the flat world terrain generation to iron blocks! By: NetherNinja",
+        "version": "1.0.0",
+        "uuid": "06f817e0-9025-11e8-9eb6-529269fb1459",
+        "type": "world_template"
+      }
+    ],
+    "metadata": {
+      "authors": [
+        "NetherNinjaMC"
+      ],
+      "url": "www.youtube.com/netherninja"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+"format_version": 1,
+"header": {
+"description": "Blue NetherWart Forest Concept Add-on from the Nether Update",
+"name": "Minecraft Nether Update Concept Add-on",
+"uuid": "d10dab8b-a22a-4fce-8049-542c87e0b8d8",
+"version": [0, 0, 2]
+},
+"modules": [
+{
+"description": "Blue NetherWart Forest Concept Add-on from the Nether Update",
+"type": "resources",
+"uuid": "5093f325-89db-48b6-bb25-9878850b2747",
+"version": [0, 0, 2]
+}
+]
+}

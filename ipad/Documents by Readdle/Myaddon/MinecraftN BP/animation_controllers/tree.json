@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.trees": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walking": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=mnu:trees] ~~~ detect ~~-1~ blue_wart_netherrack 0 function tree_blue",
+             "/execute @e[type=mnu:trees] ~~~ detect ~~-1~ red_wart_netherrack 0 function tree_red"
+					]
+				},
+				"walking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=mnu:trees] ~~~ detect ~~-1~ blue_wart_netherrack 0 function tree_blue",
+             "/execute @e[type=mnu:trees] ~~~ detect ~~-1~ red_wart_netherrack 0 function tree_red"
+					]
+				}
+			}
+		}
+	}
+}
