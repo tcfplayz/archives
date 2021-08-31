@@ -1,0 +1,5 @@
+Hi! Thanks for using MediaKit.
+— 
+Please do not delete this file. MediaKit requires it to check if you already have all JSON files containing the iOS devices’ mockups in this folder.
+—
+Do not use, modify and/or share these JSON files and do not use them with other Shortcuts, cause I own a license for some of them. Of course feel free to use everything for private purposes.

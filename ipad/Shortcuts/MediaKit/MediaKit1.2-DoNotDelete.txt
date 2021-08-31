@@ -1,0 +1,3 @@
+Hi! Thanks for using MediaKit.
+— 
+Please do not delete this file. MediaKit requires it to check if you have run the *MediaKit* Shortcut before.
