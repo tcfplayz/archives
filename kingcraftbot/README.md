@@ -1,1 +1,2 @@
-A longtime ago bot.
+# SpaceBot
+A discord bot. Thats it.
