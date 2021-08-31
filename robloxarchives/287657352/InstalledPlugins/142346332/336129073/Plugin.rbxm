@@ -1,0 +1,65 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Script" referent="RBX0">
+		<Properties>
+			<bool name="Disabled">false</bool>
+			<Content name="LinkedSource"><null></null></Content>
+			<string name="Name">SprintScriptImporter</string>
+			<ProtectedString name="Source">function onPlayerEntered(player)
+&#9;repeat wait () until player.Character ~= nil
+&#9;local s = script.SprintScript:clone()
+&#9;s.Parent = player.Character
+&#9;s.Disabled = false
+&#9;player.CharacterAdded:connect(function (char)
+&#9;&#9;local s = script.SprintScript:clone()
+&#9;&#9;s.Parent = char
+&#9;&#9;s.Disabled = false&#9;&#9;
+&#9;end)
+end
+
+game.Players.PlayerAdded:connect(onPlayerEntered)</ProtectedString>
+		</Properties>
+		<Item class="LocalScript" referent="RBX1">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">SprintScript</string>
+				<ProtectedString name="Source">local mouse = game.Players.LocalPlayer:GetMouse()
+local running = false
+
+function getTool()&#9;
+&#9;for _, kid in ipairs(script.Parent:GetChildren()) do
+&#9;&#9;if kid.className == &quot;Tool&quot; then return kid end
+&#9;end
+&#9;return nil
+end
+
+
+mouse.KeyDown:connect(function (key) -- Run function
+&#9;key = string.lower(key)
+&#9;if string.byte(key) == 48 then
+&#9;&#9;running = true
+&#9;&#9;local keyConnection = mouse.KeyUp:connect(function (key)
+&#9;&#9;&#9;if string.byte(key) == 48 then
+&#9;&#9;&#9;&#9;running = false
+&#9;&#9;&#9;end
+&#9;&#9;end)
+&#9;&#9;for i = 1,5 do
+&#9;&#9;&#9;game.Workspace.CurrentCamera.FieldOfView = (70+(i*2))
+&#9;&#9;&#9;wait()
+&#9;&#9;end
+&#9;&#9;game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 85
+&#9;&#9;repeat wait () until running == false
+&#9;&#9;keyConnection:disconnect()
+&#9;&#9;game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+&#9;&#9;for i = 1,5 do
+&#9;&#9;&#9;game.Workspace.CurrentCamera.FieldOfView = (80-(i*2))
+&#9;&#9;&#9;wait()
+&#9;&#9;end
+&#9;end
+end)</ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

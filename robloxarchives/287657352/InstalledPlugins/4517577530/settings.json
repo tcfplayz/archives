@@ -1,0 +1,1 @@
+{ "Keys":{  "ExtraBar":{  "AddPoint":"Y", "MovePoint":"R", "RemPoint":"T" }, "Completion":{  "CompleteB":"Return" }, "GuiToolbar":{  "OffsetB":"Y", "TransparencyB":"R", "ColorB":"T" } }}
