@@ -1,0 +1,1328 @@
+{
+  "skins": [
+   	{
+      "localization_name": "§2C§1R§3E§4A§5D§6O§0R",
+      "geometry": "geometry.bihanpersona",
+      "texture": "bihanpersona.png",
+      "type": "free"
+	},
+  	{
+      "localization_name": "Supreme.Deriva",
+      "geometry": "geometry.deriva",
+      "texture": "deriva.png",
+      "type": "free"
+	},
+	{
+      "localization_name": "SharkRL7",
+      "geometry": "geometry.sharkrl.skin",
+      "texture": "SharkRL.png",
+      "type": "free"
+	},
+    {
+	  "localization_name": "Kratos.By.Shorty",
+      "geometry": "geometry.kratos.skin",
+      "texture": "kratos.png",
+      "type": "free"
+	},  
+	{
+      "localization_name": "Tvarom",
+      "geometry": "geometry.tvarom",
+      "texture": "cabezatele.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Supreme.Steve",
+      "geometry": "geometry.supreme",
+      "texture": "supreme.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Deadmau5",
+      "geometry": "geometry.deadmau5",
+      "texture": "deadmau5.png",
+      "type": "free"
+	},
+    {
+      "localization_name": "naruto",
+      "geometry": "geometry.naruto",
+      "texture": "naruto.png",
+      "type": "free"
+ 	},
+	{
+	  "localization_name": "bob.esponja",
+      "geometry": "geometry.bobe",
+      "texture": "bobesponja.png",
+      "type": "free" 
+	},
+	{
+	  "localization_name": "patricio",
+      "geometry": "geometry.pat",
+      "texture": "patricio.png",
+      "type": "free"  
+	},
+	{
+	  "localization_name": "don.cangrejo",
+      "geometry": "geometry.Krab",
+      "texture": "Krab.png",
+      "type": "free"  
+	},
+    {
+	  "localization_name": "espartano",
+      "geometry": "geometry.espartano",
+      "texture": "spartan23.png",
+      "type": "free"  
+	},
+    {
+      "localization_name": "caballero",
+      "geometry": "geometry.thor",
+      "texture": "thorsencillo.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "dinosaurio",
+      "geometry": "geometry.tiburon.rojo",
+      "texture": "tiburonrojo.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "venom",
+      "geometry": "geometry.venom",
+      "texture": "venom.png",
+      "type": "free"
+    },
+	{
+	      "localization_name": "Freddy",
+      "geometry": "geometry.freddy",
+      "texture": "Freddy.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Bonnie",
+      "geometry": "geometry.bonnie",
+      "texture": "Bonnie.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Chica",
+      "geometry": "geometry.chica",
+      "texture": "Chica.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Foxy",
+      "geometry": "geometry.foxy",
+      "texture": "Foxy.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "BalloonBoy",
+      "geometry": "geometry.balloonboy",
+      "texture": "BalloonBoy.png",
+      "type": "free"
+	},
+	{
+      "localization_name":"funtime.freddy",
+      "geometry": "geometry.fnaf1",
+      "texture": "fnaf skin 1.png",
+      "type": "free"
+    },
+    {
+      "localization_name":"freddy.remastered",
+      "geometry": "geometry.fnaf2",
+      "texture": "fnaf skin 2.png",
+      "type": "free"
+    },
+	{
+	  "localization_name":"springtrap.mamadisimo",
+      "geometry": "geometry.springtrap",
+      "texture": "springtrap.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"hacker.boost",
+      "geometry": "geometry.hackerbost",
+      "texture": "skin_4d.png",
+      "type": "free"
+	},
+    {
+	  "localization_name":"batero",
+      "geometry": "geometry.batero",
+      "texture": "batero.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"scp049",
+      "geometry": "geometry.scp049",
+      "texture": "scp049.png",
+      "type": "free"
+	},
+	{
+      "localization_name": "bookshelf",
+      "geometry": "geometry.Custom.Bookshelf",
+      "texture": "bookshelf.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "chest",
+      "geometry": "geometry.Custom.Chest",
+      "texture": "chest.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "noel",
+      "geometry": "geometry.Custom.NoelHat",
+      "texture": "noel.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "axe",
+      "geometry": "geometry.Custom.Axe",
+      "texture": "axe.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "backpack",
+      "geometry": "geometry.Custom.Backpack",
+      "texture": "backpack.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "ring",
+      "geometry": "geometry.Custom.Ring",
+      "texture": "ring.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "baby",
+      "geometry": "geometry.Custom.Baby",
+      "texture": "baby.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "sword",
+      "geometry": "geometry.Custom.Sword",
+      "texture": "sword.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "claws",
+      "geometry": "geometry.Custom.Claws",
+      "texture": "claws.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Bendy",
+      "geometry": "geometry.Batim.Bendy",
+      "texture": "bendy.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Boris",
+      "geometry": "geometry.Batim.Boris",
+      "texture": "boris.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "DeadBoris",
+      "geometry": "geometry.Batim.NoDBoris",
+      "texture": "deadboris.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Kid",
+      "geometry": "geometry.Batim.Kid",
+      "texture": "kid.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Cam",
+      "geometry": "geometry.Batim.Cam",
+      "texture": "cam.png",
+      "type": "free"
+    },
+	{
+	  "localization_name": "slendy.kawai",
+      "geometry": "geometry.slender",
+      "texture": "slender.png",
+      "type": "free"
+	}, 
+	{
+	  "localization_name": "dark.voyager",
+      "geometry": "geometry.darkvoyager",
+      "texture": "darkvoyager.png",
+      "type": "free"
+	},
+	{
+	  "localization_name": "ash.ketchum",
+      "geometry": "geometry.ash",
+      "texture": "Ash.png",
+      "type": "free"
+	}, 
+	{
+	  "localization_name": "mamadisimooo",
+      "geometry": "geometry.mamado",
+      "texture": "mamado.png",
+      "type": "free"
+    }, 
+	{  
+	  "localization_name": "golem.human",
+      "geometry": "geometry.golem",
+      "texture": "golem_uman.png",
+      "type": "free"    
+	},
+	{
+	  "localization_name":"goku.xeno",
+      "geometry": "geometry.gokub",
+      "texture": "gokub.png",
+      "type": "free"
+	},
+  	{
+      "localization_name": "bardock",
+      "geometry": "geometry.bardock",
+      "texture": "bardock.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "blackgoku",
+      "geometry": "geometry.blackgoku",
+      "texture": "blackgoku.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "blackgokussjrose",
+      "geometry": "geometry.blackgokussjrose",
+      "texture": "blackgokussjrose.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "witherstorm",
+      "geometry": "geometry.witherstorm",
+      "texture": "witherstorm.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "goku",
+      "geometry": "geometry.goku",
+      "texture": "goku.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokussj",
+      "geometry": "geometry.gokussj",
+      "texture": "gokussj.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokussj2",
+      "geometry": "geometry.gokussj2",
+      "texture": "gokussj.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokussj3",
+      "geometry": "geometry.gokussj3",
+      "texture": "gokussj3.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokugod",
+      "geometry": "geometry.gokugod",
+      "texture": "gokugod.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokussjazul",
+      "geometry": "geometry.gokussjazul",
+      "texture": "gokussjazul.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokuultra",
+      "geometry": "geometry.gokuultra",
+      "texture": "gokuultra.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "gokuultradom",
+      "geometry": "geometry.gokuultradom",
+      "texture": "gokuultradom.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "gokuomnigod",
+      "geometry": "geometry.gokuomnigod",
+      "texture": "gokuomni.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "broly",
+      "geometry": "geometry.broly",
+      "texture": "broly.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "vegetaozaru",
+      "geometry": "geometry.vegetaozaru",
+      "texture": "vegetaozaru.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "vegeta",
+      "geometry": "geometry.vegeta",
+      "texture": "vegeta.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "vegetassj",
+      "geometry": "geometry.vegetassj",
+      "texture": "vegetassj.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "majinvegeta",
+      "geometry": "geometry.majinvegeta",
+      "texture": "majinvegeta.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "vegetagod",
+      "geometry": "geometry.vegetagod",
+      "texture": "vegetagod.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "vegetassjblue",
+      "geometry": "geometry.vegetassjblue",
+      "texture": "vegetassjblue.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "vegetassjbluelb",
+      "geometry": "geometry.vegetassjbluelb",
+      "texture": "vegetassjbluelb.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "thanos",
+      "geometry": "geometry.thanos",
+      "texture": "thanos.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "thanosguante",
+      "geometry": "geometry.thanosguante",
+      "texture": "thanos.png",
+      "type": "free"
+    },
+  	{
+      "localization_name": "VnMarvel",
+      "geometry": "geometry.VnMarvel",
+      "texture": "VnMarvel.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "tomura",
+      "geometry": "geometry.tomura",
+      "texture": "tomura.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Deku",
+      "geometry": "geometry.Deku",
+      "texture": "Deku.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "DekuDanado",
+      "geometry": "geometry.DekuDanado",
+      "texture": "DekuDanado.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "DekuCien",
+      "geometry": "geometry.DekuCien",
+      "texture": "DekuCien.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "todoroki",
+      "geometry": "geometry.todoroki",
+      "texture": "todoroki.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "pacman",
+      "geometry": "geometry.pacman",
+      "texture": "pacman.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "fantasmarojo",
+      "geometry": "geometry.fantasma",
+      "texture": "fantasmarojo.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "fantasmaceleste",
+      "geometry": "geometry.fantasma",
+      "texture": "fantasmaceleste.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "fantasmanaranja",
+      "geometry": "geometry.fantasma",
+      "texture": "fantasmanaranja.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "fantasmarosa",
+      "geometry": "geometry.fantasma",
+      "texture": "fantasmarosa.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "fdead",
+      "geometry": "geometry.fdead",
+      "texture": "fdead.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "meliodas",
+      "geometry": "geometry.meliodas",
+      "texture": "meliodas.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "elizabethv1",
+      "geometry": "geometry.elizabethv1",
+      "texture": "elizabethv1.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "king",
+      "geometry": "geometry.kingg",
+      "texture": "kingg.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "dianev1",
+      "geometry": "geometry.dianev1",
+      "texture": "dianev1.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "kratos",
+      "geometry": "geometry.kratos",
+      "texture": "kratoss.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "DaliArma",
+      "geometry": "geometry.DaliArma",
+      "texture": "dali.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "daliminigun",
+      "geometry": "geometry.daliminigun",
+      "texture": "dali.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "dalibilletes",
+      "geometry": "geometry.dalibilletes",
+      "texture": "dalibilletes.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "hamburguesa",
+      "geometry": "geometry.hamburguesa",
+      "texture": "hamburguesa.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "marshmello",
+      "geometry": "geometry.marshmello",
+      "texture": "marshmello.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "marshmello§al§6e§5d§r",
+      "geometry": "geometry.marshmelloled",
+      "texture": "marshmello.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "stevemamado",
+      "geometry": "geometry.stevemamado",
+      "texture": "stevemamado.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "hacker",
+      "geometry": "geometry.hacker",
+      "texture": "hacker.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "hackerlvl1",
+      "geometry": "geometry.hackerlvl1",
+      "texture": "hacker.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "scp939",
+      "geometry": "geometry.scp939",
+      "texture": "scp939.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "sans",
+      "geometry": "geometry.sans",
+      "texture": "sans.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "phantom§acod",
+      "geometry": "geometry.phantom",
+      "texture": "phantom.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Majinboo",
+      "geometry": "geometry.majinboo",
+      "texture": "majin.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Freezer",
+      "geometry": "geometry.freezer",
+      "texture": "Free.png",
+      "type": "free"
+   	},
+	{
+      "localization_name": "skater",
+      "geometry": "geometry.skater",
+      "texture": "skater.png",
+      "type": "free"
+	},
+	{
+      "localization_name": "spiderman",
+      "geometry": "geometry.avengers.spiderman",
+      "texture": "spiderman.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Chica.remastered",
+      "geometry": "geometry.Chick1",
+      "texture": "Chick1.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Bonnie.remastered",
+      "geometry": "geometry.Bunny1",
+      "texture": "Bunny1.png",
+      "type": "free"
+    },
+	{
+     "localization_name": "foxy.remastered",
+      "geometry": "geometry.foxyw",
+      "texture": "foxyv1.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Freddy.remastered",
+      "geometry": "geometry.Freddy",
+      "texture": "Freddyv1.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "§1withered.bonnie",
+      "geometry": "geometry.witheredbonnie",
+      "texture": "witheredbonnie.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "§6withered.chica",
+      "geometry": "geometry.witheredchica",
+      "texture": "witheredchica.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "§4withered.foxy",
+      "geometry": "geometry.witheredfoxy",
+      "texture": "witheredfoxy.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "§8withered.freddy",
+      "geometry": "geometry.witheredfreddy",
+      "texture": "witheredfreddy.png",
+      "type": "free"
+    },
+    {
+	  "localization_name":"carlgrimes",
+      "geometry": "geometry.carlgrimes",
+      "texture": "carlgrimes.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"rickgrimes",
+      "geometry": "geometry.rickgrimes",
+      "texture": "rickgrimes.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"daryldixon",
+      "geometry": "geometry.daryl",
+      "texture": "daryl.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"laalaamonster",
+      "geometry": "geometry.laalaamonster",
+      "texture": "laalaamonster.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"tinkytank",
+      "geometry": "geometry.tinkytank",
+      "texture": "tinkytank.png",
+      "type": "free"
+	},
+    {
+	  "localization_name":"dipsylake",
+      "geometry": "geometry.dipsylake",
+      "texture": "dipsylake.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"po_monstruo",
+      "geometry": "geometry.pomonster",
+      "texture": "pomonster.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"po_fasetres",
+      "geometry": "geometry.po_fasetres",
+      "texture": "po_fasetres.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"claw_tubbie",
+      "geometry": "geometry.claw_tubbie",
+      "texture": "claw_tubbie.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"arrow_tubbie",
+      "geometry": "geometry.arrow_tubbie",
+      "texture": "arrow_tubbie.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"dipsy_chainsaw",
+      "geometry": "geometry.dipsy_chainsaw",
+      "texture": "dipsy_chainsaw.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"imposter",
+      "geometry": "geometry.imposter",
+      "texture": "imposter.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"tinkywinky",
+      "geometry": "geometry.tinkywinky",
+      "texture": "tinkywinky.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"crawlingtubby",
+      "geometry": "geometry.crawlingtubby",
+      "texture": "crawlingtubby.png",
+      "type": "free"
+	},
+    {
+	  "localization_name":"yetitubbie",
+      "geometry": "geometry.yetitubbie",
+      "texture": "yetitubbie.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"shadowtubbie",
+      "geometry": "geometry.shadowtubbie",
+      "texture": "shadowtubbie.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"noonoo",
+      "geometry": "geometry.noonoo",
+      "texture": "noonoo.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"cyborgborn",
+      "geometry": "geometry.cyborgborn",
+      "texture": "cyborgborn.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"newbornlarge",
+      "geometry": "geometry.newbornlarge",
+      "texture": "newbornlarge.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"newborntwo",
+      "geometry": "geometry.newborntwo",
+      "texture": "newborntwo.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"newborntank",
+      "geometry": "geometry.newborntank",
+      "texture": "newborntank.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"sandwich",
+      "geometry": "geometry.sandwich",
+      "texture": "sandwich.png",
+      "type": "free"
+	},
+	{
+	  "localization_name":"gordonfreeman",
+      "geometry": "geometry.gordonfreeman",
+      "texture": "gordonfreeman.png",
+      "type": "free"
+	},
+	{
+      "localization_name": "doctorfreeman",
+      "geometry": "geometry.doctorfreeman",
+      "texture": "doctorfreeman.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "gman",
+      "geometry": "geometry.gman",
+      "texture": "gman.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "ByDFFStormtrooperCustom",
+      "geometry": "geometry.ByDFFStormtrooperCustom",
+      "texture": "stormtroopercustom.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §bGun ",
+      "geometry": "geometry.Gunplayer",
+      "texture": "Gunplayer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bGunHold ",
+      "geometry": "geometry.Gunplayerhold",
+      "texture": "Gunplayer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bTNT Skin ",
+      "geometry": "geometry.Tntplayer",
+      "texture": "Tntplayer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bCape ",
+      "geometry": "geometry.Capeplayer",
+      "texture": "Capeplayer.png",
+      "cape": "cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bCape2 ",
+      "geometry": "geometry.Capeplayer",
+      "texture": "Capeplayer.png",
+      "cape": "cape2.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §eBlockit ",
+      "geometry": "geometry.Blockit",
+      "texture": "Blockit.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §2Creeper ",
+      "geometry": "geometry.Creeper",
+      "texture": "Creeper.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bOcs§dMoney ",
+      "geometry": "geometry.Moneyplayer",
+      "texture": "Moneyskin.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §4Iron Golem ",
+      "geometry": "geometry.irongolem",
+      "texture": "IronGolem.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §2CJ ",
+      "geometry": "geometry.cj",
+      "texture": "cj.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §6PEELY ",
+      "geometry": "geometry.peely",
+      "texture": "pelly.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §bwreckraider ",
+      "geometry": "geometry.wreckraider",
+      "texture": "wreckraider.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §4SPAWN ",
+      "geometry": "geometry.spawncapa",
+      "texture": "spawn.png",
+	  "cape": "spawncapa.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §4kyloren ",
+      "geometry": "geometry.kylorencapa",
+      "texture": "kyloren.png",
+      "cape": "cape14.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §4kaneki ",
+      "geometry": "geometry.kaneki",
+      "texture": "kaneki.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §0LAMUERTE ",
+      "geometry": "geometry.lamuerte",
+      "texture": "lamuerte.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §cDEADPOOL ",
+      "geometry": "geometry.deadpool",
+      "texture": "deadpool.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bRAGNAROK ",
+      "geometry": "geometry.ragnarok",
+      "texture": "ragnarok.png",
+      "cape": "ragnarokcapa.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Dino",
+      "geometry": "geometry.rmsp.diplo",
+      "texture": "Diplo.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "steveenano",
+      "geometry": "geometry.steveenano",
+      "texture": "steveenano.png",
+      "type": "free"
+	},
+	{
+      "localization_name": " §4DIABLO ",
+      "geometry": "geometry.diablo",
+      "texture": "diablo.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §4INOSUKE ",
+      "geometry": "geometry.inosuke",
+      "texture": "inosuke.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §6§oERRONBLACKMKX ",
+      "geometry": "geometry.erronblack",
+      "texture": "erronblack.png",
+      "cape": "erronblackcapa.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §6§oSCORPIONMK11 ",
+      "geometry": "geometry.scorpion",
+      "texture": "scorpionmk11.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §6§oSCORPIONMK3 ",
+      "geometry": "geometry.scorpionmk3",
+      "texture": "scorpionmk3.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §7§nGERALTOFRIVIA ",
+      "geometry": "geometry.geralt",
+      "texture": "geralt.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §3§oOBI.WAN ",
+      "geometry": "geometry.obiwan",
+      "texture": "obiwan.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §f§oPHASMA ",
+      "geometry": "geometry.phasma",
+      "texture": "phasma.png",
+	  "cape": "phasmacapa.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §3SQUIRTLE ",
+      "geometry": "geometry.squirtle",
+      "texture": "squirtle.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §4CHARMANDER ",
+      "geometry": "geometry.charmander",
+      "texture": "charmander.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §aBULBASAUR ",
+      "geometry": "geometry.bulbasaur",
+      "texture": "bulbasaur.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §ePIKACHU ",
+      "geometry": "geometry.pikachu",
+      "texture": "pikachu.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "jigglypuff",
+      "geometry": "geometry.jigglypuff",
+      "texture": "jigglypuff.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "hitmonlee",
+      "geometry": "geometry.hitmonlee",
+      "texture": "hitmonlee.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "loot_llama",
+      "geometry": "geometry.loot_llama",
+      "texture": "lootllama.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "sneaky_snowman",
+      "geometry": "geometry.sneaky_snowman",
+      "texture": "sneaky_snowman.png",
+      "type": "free"
+    },
+	{
+      "localization_name": " §2§kHACKER ",
+      "geometry": "geometry.hacker",
+      "texture": "pobre_hacker.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "RLKING",
+      "geometry": "geometry.king",
+      "texture": "king.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "ceda",
+      "geometry": "geometry.covid",
+      "texture": "covid.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "pinguinito",
+      "geometry": "geometry.pinguino",
+      "texture": "pinguino.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "falcon",
+      "geometry": "geometry.falcon",
+      "texture": "falcon.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Spike",
+      "geometry": "geometry.spike",
+      "texture": "Spike.png",
+      "type": "free"
+    },
+ 
+    {
+      "localization_name": "Sakura_Spike",
+      "geometry": "geometry.sakura_spike",
+      "texture": "Sakura_spike.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Robo_Spike",
+      "geometry": "geometry.robo_spike",
+      "texture": "Robo_spike.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "rip",
+      "geometry": "geometry.rip",
+      "texture": "rip.png",
+      "type": "free"
+    },	
+	{
+      "localization_name": "㊝TᴜPᴀᴘɪJʜᴏᴠᴀ",
+      "geometry": "geometry.papi",
+      "texture": "tupapi.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "ianelpro",
+      "geometry": "geometry.ian",
+      "texture": "ian.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Byshadow87",
+      "geometry": "geometry.itachi",
+      "texture": "Byshadow87.png",
+      "type": "free"
+    },	
+    {
+      "localization_name": "sansgaster",
+      "geometry": "geometry.sansgaster",
+      "texture": "sans.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "caballo",
+      "geometry": "geometry.caballo",
+      "texture": "caballo.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "diamante",
+      "geometry": "geometry.diamante",
+      "texture": "diamante.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "lucifer",
+      "geometry": "geometry.lucifer",
+      "texture": "lucifer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "clowntubby",
+      "geometry": "geometry.clowntubby",
+      "texture": "clowntubby.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "shadely",
+      "geometry": "geometry.shadely",
+      "texture": "shadely.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "shade",
+      "geometry": "geometry.shade",
+      "texture": "shade.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "montes",
+      "geometry": "geometry.montes",
+      "texture": "montes.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "ikar",
+      "geometry": "geometry.ikar",
+      "texture": "ikar.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "devil",
+      "geometry": "geometry.devil",
+      "texture": "devil.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "ellisl4d2",
+      "geometry": "geometry.ellis",
+      "texture": "ellis.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bDeadmau5Blue ",
+      "geometry": "geometry.deadmau5blue",
+      "texture": "deadmau5blue.png",
+      "cape": "deadmau5cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §4Deadmau5red ",
+      "geometry": "geometry.deadmau5red",
+      "texture": "deadmau5red.png",
+      "cape": "deadmau5cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bZorro ",
+      "geometry": "geometry.fox",
+      "texture": "fox.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bGallina ",
+      "geometry": "geometry.Chickenskin",
+      "texture": "Chickenskin.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bAtlas ",
+      "geometry": "geometry.Atlasportal",
+      "texture": "Atlasportal.png",
+      "type": "free"
+    },
+    {
+      "localization_name": " §bAtlas portal gun ",
+      "geometry": "geometry.atlasgun",
+      "texture": "atlasgun.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "CosmeticsPE",
+      "geometry": "geometry.halo1.0",
+      "texture": "halo1.0.png",
+	  "cape": "cape.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Gucci",
+      "geometry": "geometry.halo2.0",
+      "texture": "halo2.0.png",
+      "cape": "cape.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "AK47",
+      "geometry": "geometry.Jan1",
+      "texture": "Jan1.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Wings",
+      "geometry": "geometry.wings",
+      "texture": "wings.png",
+	  "cape": "cape.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Miniwings",
+      "geometry": "geometry.miniwingshalo",
+      "texture": "miniwingshalo.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Lbandana1",
+      "geometry": "geometry.Lbandana1",
+      "texture": "Lbandana1.png",
+	  "cape": "cape.png",
+      "type": "free"
+    },
+	{
+      "localization_name": "Lbandana2",
+      "geometry": "geometry.Lbandana2",
+      "texture": "Lbandana2.png",
+	  "cape": "cape.png",	  
+      "type": "free"
+    },
+	{
+      "localization_name": "Godoudama1",
+      "geometry": "geometry.Godoudama1",
+      "texture": "Godoudama1.png",	  
+      "type": "free"
+    },
+	{
+      "localization_name": "Halo1",
+      "geometry": "geometry.halo1",
+      "texture": "halo1.png",
+      "cape": "cape.png",		  
+      "type": "free"
+    },
+	{
+      "localization_name": "Halo2",
+      "geometry": "geometry.halo2",
+      "texture": "halo2.png",
+      "cape": "cape.png",		  
+      "type": "free"
+    },
+	{
+      "localization_name": "getonmylvl1",
+      "geometry": "geometry.getonmylvl1",
+      "texture": "getonmylvl1.png",
+      "cape": "cape.png",		  
+      "type": "free"
+    },
+	{
+      "localization_name": "getonmylvl2",
+      "geometry": "geometry.getonmylvl2",
+      "texture": "getonmylvl2.png",
+      "cape": "cape.png",		  
+      "type": "free"
+    },
+	{
+      "localization_name": "kagunehalo1",
+      "geometry": "geometry.kagunehalo1",
+      "texture": "kagunehalo1.png",		  
+      "type": "free"
+    },
+	{
+      "localization_name": "kagunehalo2",
+      "geometry": "geometry.kagunehalo2",
+      "texture": "kagunehalo2.png",		  
+      "type": "free"
+    },
+	{
+      "localization_name": "firewings",
+      "geometry": "geometry.firewings2",
+      "texture": "firewings2.png",
+      "cape": "cape.png",	  
+      "type": "free"
+    },
+    {
+      "localization_name": "Dummy",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "dummy.png",
+      "type": "custom"
+    }	
+  ],
+  "serialize_name": "ECHO POR §0BIHANYT",
+  "localization_name": "ECHO POR §0BIHANYT"
+}
