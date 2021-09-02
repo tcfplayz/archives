@@ -1,0 +1,255 @@
+//mod was made by mcpemodmaker
+ModPE.overrideTexture("images/mob/elemental.png"," https://s-media-cache-ak0.pinimg.com/originals/65/85/b6/6585b6e2eb92bde5ad8d62ea4e8671c7.jpg ");
+
+var Gen = false
+var Launch=false
+var LaunchC=1000
+var Flame=false
+
+function addRocketRenderType(renderer)
+{
+var model = renderer.getModel();
+
+var head = model.getPart("head");
+var body = model.getPart("body");
+var rArm = model.getPart("rightArm");
+var lArm = model.getPart("leftArm");
+var rLeg = model.getPart("rightLeg");
+var lLeg = model.getPart("leftLeg");
+head.clear();
+body.clear();
+body.setTextureOffset(0, 0);
+body.addBox(0, -20, 0, 16, 50, 16);
+body.addBox(+2, -22, +2, 12, 50, 12);
+body.addBox(+4, -24, +4, 8, 50, 8);
+body.addBox(+6, -26, +6, 4, 50, 4);
+
+rArm.clear();
+lArm.clear();
+rLeg.clear();
+lLeg.clear();
+}
+var RocketRenderer = Renderer.createHumanoidRenderer();
+addRocketRenderType(RocketRenderer);
+
+function addBossRenderType(renderer)
+{
+var model = renderer.getModel();
+
+var head = model.getPart("head");
+var body = model.getPart("body");
+var rArm = model.getPart("rightArm");
+var lArm = model.getPart("leftArm");
+var rLeg = model.getPart("rightLeg");
+var lLeg = model.getPart("leftLeg");
+head.clear();
+body.clear();
+body.setTextureOffset(0, 0);
+body.addBox(0, -20, 0, 30, 20, 20);
+body.addBox(+30, -20, +5, 10, 50, 10);
+body.addBox(-10, -20, +5, 10, 50, 10);
+body.addBox(+10, -28, 0, 10, 10, 10);
+body.addBox(+5, -10, +5, 20, 40, 10);
+
+rArm.clear();
+lArm.clear();
+rLeg.clear();
+lLeg.clear();
+}
+var BossRenderer = Renderer.createHumanoidRenderer();
+addBossRenderType(BossRenderer);
+
+ModPE.setItem(500,"ender_pearl",0,"Galactic Rocket")
+ModPE.setItem(501,"egg",0,"Galctic Monster")
+Item.addShapedRecipe(500,1,0,["xox","xox","xxx"],["x",42,0,"o",331,0]);
+
+function useItem(x,y,z,itemId,blockId,side,itemDamage,blockDamage)
+{
+if(itemId==500)
+{
+var rocket = Level.spawnMob(x+0.5, y+1, z+0.5, 15,"mob/elemental.png" );
+Entity.setHealth(rocket,10);
+Entity.setNameTag(rocket,"Galactic Rocket");
+Entity.setRenderType(rocket, RocketRenderer.renderType);
+addItemInventory(500,-1);
+}
+if(itemId==501)
+{
+var boss = Level.spawnMob(x+0.5, y+1, z+0.5, 34,"mob/elemental.png" );
+Entity.setHealth(boss,10000);
+Entity.setNameTag(boss,"Galctic Monster");
+Entity.setRenderType(boss, BossRenderer.renderType);
+}
+}
+
+function modTick()
+{
+if(Gen)
+{
+var x = getPlayerX();
+var y = getPlayerY();
+var z = getPlayerZ();
+var GenX= Math.floor(Math.random()*50);
+var GenY = Math.floor(Math.random()*50);
+var GenZ = Math.floor(Math.random()*50);
+var GenXI= Math.floor(Math.random()*50);
+var GenYI = Math.floor(Math.random()*50);
+var GenZI = Math.floor(Math.random()*50);
+var GenXA= Math.floor(Math.random()*50);
+var GenYA = Math.floor(Math.random()*50);
+var GenZA = Math.floor(Math.random()*50);
+setTile(x+GenX,y+GenY+50,z+GenZ,121)
+setTile(x+GenX+1,y+GenY+50,z+GenZ+1,121)
+setTile(x+GenX-1,y+GenY+50,z+GenZ-1,121)
+setTile(x+GenX+1,y+GenY+50,z+GenZ-1,121)
+setTile(x+GenX-1,y+GenY+50,z+GenZ+1,121)
+setTile(x+GenX+1,y+GenY+50,z+GenZ,121)
+setTile(x+GenX-1,y+GenY+50,z+GenZ,121)
+setTile(x+GenX,y+GenY+50,z+GenZ+1,121)
+setTile(x+GenX,y+GenY+50,z+GenZ-1,121)
+setTile(x+GenXI,y+GenYI+50,z+GenZI,121)
+setTile(x+GenXI+1,y+GenYI+50,z+GenZI+1,121)
+setTile(x+GenXI-1,y+GenYI+50,z+GenZI-1,121)
+setTile(x+GenXI+1,y+GenYI+50,z+GenZI-1,121)
+setTile(x+GenXI-1,y+GenYI+50,z+GenZI+1,121)
+setTile(x+GenXI+1,y+GenYI+50,z+GenZI,121)
+setTile(x+GenXI-1,y+GenYI+50,z+GenZI,121)
+setTile(x+GenXI,y+GenYI+50,z+GenZI+1,121)
+setTile(x+GenXI,y+GenYI+50,z+GenZI-1,121)
+setTile(x+GenXA+1,y+GenYA+50,z+GenZA+1,56)
+}
+if(Launch)
+{
+LaunchC--;
+}
+if(LaunchC==950)
+{
+clientMessage("5")
+}
+if(LaunchC==800)
+{
+clientMessage("4")
+}
+if(LaunchC==700)
+{
+clientMessage("3")
+}
+if(LaunchC==600)
+{
+clientMessage("2")
+}
+if(LaunchC==500)
+{
+clientMessage("1")
+}
+if(LaunchC==400)
+{
+clientMessage("Take Off!")
+ var  player = getPlayerEnt();
+setPosition(player,x+25.5,y+52.5,z+25.5);
+Flame=true
+Gen=false
+}
+if(LaunchC==100)
+{
+Entity.setRenderType(Player.getEntity(), 3);
+clientMessage("Landing...")
+Flame=false
+}
+if(LaunchC==50)
+{
+var x = getPlayerX();
+var y = getPlayerY();
+var z = getPlayerZ();
+Level.destroyBlock(x+1,y,z)
+Level.destroyBlock(x-1,y,z)
+Level.destroyBlock(x,y,z+1)
+Level.destroyBlock(x,y,z-1)
+Level.destroyBlock(x+1,y-1,z)
+Level.destroyBlock(x-1,y-1,z)
+Level.destroyBlock(x,y-1,z+1)
+Level.destroyBlock(x,y-1,z-1)
+Level.destroyBlock(x,y+1,z)
+setTile(x,y-2,z,121)
+setTile(x+1,y-2,z,121)
+setTile(x-1,y-2,z,121)
+setTile(x,y-2,z+1,121)
+setTile(x,y-2,z-1,121)
+}
+if(LaunchC==10)
+{
+var x = getPlayerX();
+var y = getPlayerY();
+var z = getPlayerZ();
+var boss = Level.spawnMob(x+20, y+50, z+20, 34,"mob/elemental.png" );
+Entity.setHealth(boss,10000);
+Entity.setNameTag(boss,"Galctic Monster");
+Entity.setRenderType(boss, BossRenderer.renderType);
+setTile(x+20,y+45,z+20,121)
+setTile(x+19,y+45,z+20,121)
+setTile(x+20,y+45,z+19,121)
+setTile(x+21,y+45,z+20,121)
+setTile(x+20,y+45,z+21,121)
+var  player = getPlayerEnt();
+setPosition(player,x+20,y+50,z+20);
+}
+if(Flame)
+{
+var x = getPlayerX();
+var y = getPlayerY();
+var z = getPlayerZ();
+Level.addParticle(ParticleType.mobFlame,x,y-1,z,0,0,10);
+}
+}
+
+function attackHook(a,v)
+{
+if(Entity.getNameTag(v)=="Galactic Rocket")
+{
+clientMessage("Preping For Launch")
+clientMessage("Please Do Not Move")
+preventDefault()
+Entity.setHealth(v,Entity.getHealth(v) - 125);
+Gen=true
+Launch=true
+Level.setTime(12000)
+var x = getPlayerX();
+var y = getPlayerY();
+var z = getPlayerZ();
+setTile(x+25,y+50,z+25,49)
+setTile(x+25,y+50,z+26,49)
+setTile(x+26,y+50,z+25,49)
+setTile(x+25,y+50,z+24,49)
+setTile(x+24,y+50,z+25,49)
+setTile(x+25,y+51,z+26,49)
+setTile(x+26,y+51,z+25,49)
+setTile(x+25,y+51,z+24,49)
+setTile(x+24,y+51,z+25,49)
+setTile(x+25,y+52,z+26,49)
+setTile(x+26,y+52,z+25,49)
+setTile(x+25,y+52,z+24,49)
+setTile(x+24,y+52,z+25,49)
+setTile(x+25,y+53,z+25,49)
+setTile(x+1,y,z,20)
+setTile(x-1,y,z,20)
+setTile(x,y,z+1,20)
+setTile(x,y,z-1,20)
+Level.destroyBlock(x+25,y+51,z+25)
+Level.destroyBlock(x+25,y+52,z+25)
+Entity.setRenderType(Player.getEntity(), RocketRenderer.renderType );
+}
+}
+
+function deathHook(murderer, victim)
+{
+if(Entity.getNameTag(victim)=="Galctic Monster")
+{
+preventDefault();
+var x= Entity.getX(victim);
+var y= Entity.getY(victim);
+var z= Entity.getZ(victim);
+Level.dropItem(x,y,z,1,57,32,0)
+Level.dropItem(x,y,z,1,42,32,0)
+Level.dropItem(x,y,z,1,41,32,0)
+}
+}
